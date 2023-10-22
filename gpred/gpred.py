@@ -331,7 +331,6 @@ def main() -> None:  # pragma: no cover
         [len(sequence_rc) - gene[1] + 1, len(sequence_rc) - gene[0] + 1]
         for gene in probable_genes_comp
     ]
-    print(probable_genes_comp)
 
     # Call to output functions
     write_genes(
